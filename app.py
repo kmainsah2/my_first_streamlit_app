@@ -99,7 +99,7 @@ The 2 changes I made were:
 
 
 source = data.iowa_electricity()
-st.write(source)
+
 area = alt.Chart(source).mark_area().encode(
     x=alt.X("year:T", title='Year'),
     y=alt.Y("net_generation:Q", title='Net Generation'),
